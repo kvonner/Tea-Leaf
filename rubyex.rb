@@ -1,19 +1,19 @@
 #Exercise 1
 
 array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-#array.each do |x|
-#	puts x
-#end
+array.each do |x|
+	puts x
+end
 
 #Exercise 2
 
-#array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-#array.each {|x| puts x if x>5}
+array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+array.each {|x| puts x if x>5}
 
 #Exercise 3
 
-#new_array = array.select{|x| x%2==1}
-#puts new_array
+new_array = array.select{|x| x%2==1}
+puts new_array
 
 #Exercise 4
 
@@ -34,14 +34,15 @@ array = array.uniq
 #An array is a list of entries ordered by number, while a hash is not orderd numerically and but rather by keys with associates values for each entry. E.g., an array is a ordered list of people's weights, a hash is a list of names with their corresponding weight.
 
 #Exercise 8
+
 	#Ruby 1.9
-#numbers = Hash[("a".."d").to_a.zip((1..4).to_a)]
+num = Hash[("a".."d").to_a.zip((1..4).to_a)]
 	#Ruby 1.8
 numbers = { "a" => 1, "b" => 2, "c" => 3, "d" => 4 } 
 
 #Exercise 9
 
-#puts numbers["b"]
+puts numbers["b"]
 
 #Exercise 10
 
