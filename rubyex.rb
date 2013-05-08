@@ -31,7 +31,9 @@ array = array.uniq
 
 #Exercise 7
 
-#An array is a list of entries ordered by number, while a hash is not orderd numerically and but rather by keys with associates values for each entry. E.g., an array is a ordered list of people's weights, a hash is a list of names with their corresponding weight.
+#An array is a list of entries ordered by number, while a hash is not orderd numerically 
+#but rather by keys with associated values for each entry. E.g., an array is a ordered 
+#list of people's weights, a hash is a list of names with their corresponding weight.
 
 #Exercise 8
 
@@ -65,4 +67,7 @@ numbers.delete_if {| key, value | value < 3.5 }
 
 #Exercise 15
 
-# Not sure if it counts, but I've found Stack Overflow to be the most helpful so far. The tagging system makes it easy to search, upvotes make it easy to find the best responses, and tons of helpful responses - I've found my exact question asked in most cases
+# After a bit of search http://www.ruby-doc.org/ seems easily searchable with good examples
+# Also, Not sure if it counts, but I've found Stack Overflow to be the most helpful so far. 
+#The tagging system makes it easy to search, upvotes make it easy to find the best responses, 
+#and tons of helpful responses - I've found my exact question asked in most cases
